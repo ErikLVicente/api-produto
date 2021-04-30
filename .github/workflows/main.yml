@@ -45,7 +45,7 @@ jobs:
           push: true
           tags: 
             erikdelimavicente/api-produto:latest
-            erikdelimavicente/api-produto:${{github.run_number}}
+            erikdelimavicente/api-produto:${{ github.run_number }}
             
       
 
